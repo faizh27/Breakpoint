@@ -63,25 +63,4 @@ A 2D roguelike tennis game for Steam inspired by **Hangtime** (volleyball). Fast
 5. Wire up references in inspector (see script comments)
 6. Play and iterate
 
-## File Structure
-
-```
-Assets/
-├── Scripts/
-│   ├── BallController.cs       — Ball physics & visuals
-│   ├── PlayerController.cs     — Player input & swinging
-│   ├── AIOpponent.cs           — AI movement & shot logic
-│   ├── GameManager.cs          — Game state & scoring
-│   ├── CourtSystem.cs          — Boundary detection
-│   └── UIManager.cs            — Score display & game over
-└── Scenes/
-    └── SampleScene.unity
-```
-
-## Contributing
-
-Early-stage project. Feedback welcome — open an issue or PR.
-
-## License
-
 MIT
